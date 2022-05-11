@@ -1,12 +1,95 @@
-.navbar.transparent.navbar-inverse .navbar-inner {
-    border-width: 0px;
-    -webkit-box-shadow: 0px 0px;
-    box-shadow: 0px 0px;
-    background-color: rgba(0,0,0,0.0);
-    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
-    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
-    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+/*START OF NAVBAR*/
+
+/*END OF NAVBAR*/
+
+/*START OF LANDING PAGE*/
+#landing {
+    background-image: url(./images/pexels-andre-moura-10211352.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+#landing h1, #landing h4 {
+font-size: 3rem;
+text-shadow: 3px 3px 3px #000;
+}
+/*END OF LANDING PAGE*/
+
+/*START OF ABOUT SECTION*/
+#about{
+    height: 85vh;
+    background-color: #121212;
+    padding-top: 110px;
+    
+}
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.about-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.about-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+/*END OF ABOUT SECTION*/
+
+/*START OF SKILLS SECTION*/
+
+/*END OF SKILLS SECTION*/
+
+/*START OF PROJECTS SECTION*/
+.projects-container {
+    padding: 5%;
+}
+.projects-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.projects-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+.projects-items img {
+  min-width: 200px;
+  flex-grow: 1;
+  object-fit: cover;
+  max-height: 400px;
+}
+/*END OF PROJECTS SECTION*/
+
+/*START OF RESUME SECTION*/
+.resume .resume-item h5 {
+    font-size: 16px;
+    background: #effbf9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #34b7a7;
+}
+/*END OF RESUME SECTION*/
+
 /*Testimonials */
 #testimonials{
     position: relative;
@@ -17,3 +100,6 @@
     object-fit: cover;
 }
 /*End of Testimonials*/
+
+/*START OF CONTACT SECTION*/
+/*END OF CONTACT SECTION*/

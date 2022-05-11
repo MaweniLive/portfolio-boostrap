@@ -18,95 +18,71 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
   </head>
   <body id="top" >
     <!--Main wrapper start-->
-    <div class="wrapper dark-layout">
       <!--Header area start-->
-      <header id="header-area">
-        <nav
-          class="navbar fixed-top navbar-expand-lg navbar-dark bg-* py-3 d-flex justify-content-between align-items-center header-transparent"
-        >
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#"> Maweni </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#landing"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#resume">Resume</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#skills">Skills</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#project">Project</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#testimonials">Testimonials</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </header>
+        <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark py-3 d-flex justify-content-between align-items-center header-transparent">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      Live Maweni</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#landing">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#skills">Skills</a></li>
+            <li><a class="dropdown-item" href="#testimonials">Testimonials</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#resume">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contacts">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div class="header-social-links">
+      <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+  </div>
+</nav>
+    </header>
       <!--Header area end-->
       <!--Start of Main content-->
-      <div class="content">
         <!--Slider-area start-->
-        <div class="slider-area" id="landing">
+        <section id="landing" class="home dark-layout">
           <div class="container-fluid">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="slider-content text-center"></div>
-                <h3>Hello ,</h3>
-                <h1>I'm Live Maweni Full Stack Developer</h1>
-                <ul class="description">
-                  <li>Developer</li>
-                  <li>Photographer</li>
-                </ul>
-                <div class="social-bookmark">
-                  <i class="fa-brands fa-twitter"></i>
-                  <i class="fa-brands fa-instagram"></i>
-                  <i class="fa-brands fa-github"></i>
-                  <i class="fa-brands fa-linkedin"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+       
+        </section
         <!--START OF ABOUT SECTION-->
-        <div class="about-area gray-bg pt-110" id="about">
-          <div class="container">
+        <section id="about">
+          <div class="container text-white bg-dark ">
             <div class="row">
               <div class="col-lg-5 col-md-5">
                 <div class="portfolio-image">
-                  <img  src="./images/Live (1) (1).JPG" alt="" />
+                  <img class="ms-4" src="./images/Live (1) (1).JPG" alt="" style="width: 267px;" />
                 </div>
               </div>
               <div class="col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1">
-                <div class="portfolio-wrapper pt-115">
+                <div class="about-details pt-115">
                   <div class="section-title">
                     <h2>About Me</h2>
                   </div>
-                  <div class="about-details">
+                  <div class="about-details g-3">
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                       sed do eiusmod tempor incidiei dunt ut labore et dolore
@@ -123,7 +99,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
                       accusantium doloremque laudantium, totam rem aperiam
                     </p>
                   </div>
-                  <div class="profile-action-btn">
+                  <div class="about-action-btn">
                     <a class="button" href="#">HIRE ME</a>
                     <a class="button button-white" href="#">DOWNLOAD CV</a>
                   </div>
@@ -131,10 +107,11 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
               </div>
             </div>
           </div>
-        </div>
+        </section>
         <!--END ABOUT SECTION-->
         <!--START OF SKILLS SECTION-->
-        <div class="skills-area gray-bg pt-100 ph-110" id="skills">
+        <section id="skills" class="skills-section bg-dark pt-100 pd-110 text-white">
+        <div class="skills-area pt-100 ph-110" >
           <div class="container">
             <div class="row">
               <div class="col-lg-12">
@@ -197,39 +174,35 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
             </div>
           </div>
         </div>
+        </section>
         <!--END OF SKILLS SECTION-->
         <!--START OF PROJECTS SECTION-->
-        <div class="project-area gray-bg pt-110 ph-80" id="project">
-          <div class="container">
-            <div class="row">
-              <div class="section-title text-center">
-                 <h2>Latest Projects</h2>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="project-content">
-                  <div class="project-filter-wrap text-center">
-                    <div class="project-filter">
-                      <ul>
-                        <li class="active" data-filter="*">All Work</li>
-                        <li data-filter=".cat1">WEB Design</li>
-                        <li data-filter=".cat2">GRAPHIC</li>
-                        <li data-filter=".cat3">PRINT</li>
-                        <li data-filter=".cat4">ILLUSRATION</li>
-                      </ul>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+  <section id="projects" class="py-5 text-center text-white bg-dark">
+  <div class="projects-container">
+    <div class="projects-title">
+    <h2>Projects</h2>
+    </div>
+    <div class="projects-items">
+    <img src="https://picsum.photos/200/300" alt="">
+    <img src="https://picsum.photos/200/300" alt="">
+    <img src="https://picsum.photos/200/300" alt="">
+    <img src="https://picsum.photos/200/300" alt="">
+    <img src="https://picsum.photos/200/300" alt="">
+    <img src="https://picsum.photos/200/300" alt="">
+    <img src="https://picsum.photos/200/300" alt="">
+    <img src="https://picsum.photos/200/300" alt="">
+    <img src="https://picsum.photos/200/300" alt="">
+    <img src="https://picsum.photos/200/300" alt="">
+    <img src="https://picsum.photos/200/300" alt="">
+    <img src="https://picsum.photos/200/300" alt="">
+    </div>
+  </div>
+  </section>
         <!--END OF PROJECT SECTION-->
 
         <!--START OF RESUME SECTION-->
-        <div class="resume-area black-bg pt-110 ph-80" id="resume">
+        <section id="resume" class="resume-section bg-dark pt-110 pb-150 text-white">
+        <div class="resume-area black-bg pt-110 ph-80" >
          <div class="container">
     <div class="section-title">
       <h2>Resume</h2>
@@ -253,13 +226,25 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
       <h3 class="resume-title">Education</h3>
       <div class="resume-item">
         <h4>Degree of Design</h4>
-        <h5>2018-2021</h5>
+        <h5 style="font-size: 16px;
+            background: #effbf9;
+            padding: 5px 15px;
+            display: inline-block;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #34b7a7;">2018-2021</h5>
         <p><em> Dolor amet consectetur adipisicing.</em></p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus officia eius iusto!</p>
       </div>
       <div class="resume-items">
         <h4>Matriculated</h4>
-        <h5>2017-2018</h5>
+        <h5 style="font-size: 16px;
+            background: #effbf9;
+            padding: 5px 15px;
+            display: inline-block;
+            font-weight: 600;
+            margin-bottom: 10px;
+           color: #34b7a7;">2017-2018</h5>
         <p><em> Amet consectetur, adipisicing elit.</em></p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium animi nostrum esse commodi.</p>
       </div>
@@ -268,7 +253,13 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         <h3 class="resume-title">Professional Experience</h3>
         <div class="resume-item">
           <h4>Senior programm manager</h4>
-          <h5>2022 - Present</h5>
+          <h5 style="font-size: 16px;
+              background: #effbf9;
+              padding: 5px 15px;
+              display: inline-block;
+              font-weight: 600;
+              margin-bottom: 10px;
+              color: #34b7a7;">2022 - Present</h5>
           <p><em>Experion, Cape Town</em></p>
           <p></p>
           <ul>
@@ -281,7 +272,13 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         </div>
         <div class="resume-item">
           <h4>Web Specialist</h4>
-          <h5>2018-2019</h5>
+          <h5 style="font-size: 16px;
+              background: #effbf9;
+              padding: 5px 15px;
+              display: inline-block;
+              font-weight: 600;
+              margin-bottom: 10px;
+              color: #34b7a7;">2018-2019</h5>
           <p><em>Clemont Designer ,Cape Town</em></p>
           <p></p>
           <ul>
@@ -296,9 +293,11 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     </div>
   </div>
   </div>
+        </section>
         <!--END OF RESUME SECTION-->
 
         <!--START OF TESTIMONIALS SECTION-->
+        <section id="testimonials" class="testimonials-section bg-gray pt-110 pb-150 text-white">
         <div class="testimonials-area gray-bg pt-110 pb-150">
             <div class="container text-center text-white">
       <h2 class="mb-5">Testimonials</h2>
@@ -307,7 +306,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
               data-bs-ride="carousel" >
   <div class="carousel-inner">
     <div class="carousel-item pd-5 text-center active">
-      <img src="" 
+      <img src="images/Live (1) (3).JPG"
       class="rounded-circle mb-5"
       width="110px"
       height="130px" 
@@ -344,56 +343,69 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
   </button>
 </div>
 </div>
+</section>
         <!--END OF TESTIMONIALS SECTION-->
 
         <!--START OF CONTACT SECTION-->
-        <div class="contact-area black-bg ph-110" id="contact">
-         <div class="container">
-           <div class="contact-wrapper">
-             <div class="row">
-                <div class="col-sm-4">
-                  <div class="contact-address text-center">
-                    <i class="fa-solid fa-phone-rotary"></i>
-                    <h4>(+27)67 2300 069</h4>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="contact-address text-center">
-                    <i class="fa-solid fa-map-location-dot"></i>
-                    <h4>22 Saint Street , <br>Cape Town ,RSA</h4>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="contact-address text-center">
-                    <i class="fa-solid fa-envelope"></i>
-                    <h4>saliwalive@gmail.com</h4>
-                  </div>
-                </div>
-             </div>
-             <div class="row">
-               <form id="contact-me" action="" method="post">
-                 <div class="form-inner">
-                   <div class="col-md-5 col-sm-6">
-                     <div class="input-box form-floating">
-                       <input name="name" class="form-control" placeholder="Your Name" type="text">
-                       <input name="email" class="form-control" placeholder="Your Email" type="email">
-                       <input name="subject" class="form-control" placeholder="Subject" type="text">
-                     </div>
-                   </div>
-                   <div class="col-md-7 col-sm-6">
-                     <div class="message-box form-floating">
-                       <textarea name="message" cols="30" rows="2" placeholder="Message"></textarea>
-                       <input class="button" type="submit" value="SEND MESSAGE">
-                     </div>
-                   </div>
-                 </div>
-               </form>
-             </div>
-           </div>
-         </div>
-        </div>
-        <!--END OF CONTACT SECTION-->
-        <!--START OF FOOTER SECTION-->
+        <section id="contact" class="contact-section bg-dark pb-110 text-white">
+          <div class="container">
+          <div class="about-title">
+            <div class="row text-align-center">
+              <h2>Wanna start work with me ?</h2>
+              <p>CLICK ON THE LINK BELOW</p>
+            </div>
+          </div>
+          <div class="contact-location " >
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.979540205447!2d18.625010515213415!3d-33.993059280622056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc4f785cd34b73%3A0x1fb188d74c5a18e6!2s22%20Saint%2C%20Delft%20South%2C%20Cape%20Town%2C%207100!5e0!3m2!1sen!2sza!4v1651733071556!5m2!1sen!2sza" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="row">
+            <form class="row g-3 needs-validation" novalidate>
+  <div class="col-md-4 position-relative">
+    <label for="validationTooltip01" class="form-label">First name</label>
+    <input type="text" class="form-control" id="validationTooltip01" placeholder="Name" required>
+    <div class="valid-tooltip">
+      Looks good!
+    </div> 
+  </div>
+  <div class="col-md-4 position-relative">
+    <input type="text" class="form-control" id="validationTooltip02" placeholder="Second Name" required>
+    <div class="valid-tooltip">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4 position-relative">
+    <label for="validationTooltipUsername" class="form-label">Username</label>
+    <div class="input-group has-validation">
+      <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+      <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+      <div class="invalid-tooltip">
+        Please choose a unique and valid username.
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 position-relative">
+    <label for="validationTooltip03" class="form-label">Subject</label>
+    <input type="text" class="form-control" id="validationTooltip03" placeholder="Subject" required>
+    <div class="invalid-tooltip">
+      Please provide a valid subject.
+    </div>
+  </div>
+  <div class="col-md-3 position-relative">
+    <input type="text" class="form-control" id="validationTooltip05" placeholder="Message" required>
+    <div class="invalid-tooltip">
+      Please provide a Message.
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+</form>
+          </div>
+          </div>
+        </section>
+        <!--END OF CONTACT AREA-->
+        <!--START OF FOOTER AREA-->
+        <section id="footer" class="footer-section bg-dark text-white">
          <footer class="footer-area black-bg">
           <div class="container">
             <div class="row">
@@ -415,9 +427,9 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
             </div>
           </div>
          </footer>
+         </section>
+        </section>
         <!--END OF FOOTER SECTION-->
-      </div>
-    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

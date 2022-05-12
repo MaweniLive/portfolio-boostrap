@@ -1,5 +1,23 @@
+h1,h2,h3,h4,h5 {
+font-family: "Raleway", sans-serif;}
 /*START OF NAVBAR*/
+.navbar-brand{
+   /* transform: rotate(350deg);*/
+    font-family: fira sans;
+    font-size: 30px;
+}
+.nav-item{
+    font-size: 20px;
+}
+a:hover{
+    color:#000;
+}
+.nav-link:hover {
+    font-size: 1rem;
+    background-color: blue;
+    border-radius: 20%;
 
+}
 /*END OF NAVBAR*/
 
 /*START OF LANDING PAGE*/
@@ -18,20 +36,83 @@
 font-size: 3rem;
 text-shadow: 3px 3px 3px #000;
 }
+/* Typing - animation */
+.wrapper .text-wrapper {
+    font-size: 60px;
+    font-weight: 400;
+}
+/* ul */
+.wrapper .job-titles {
+    margin: 2px 10px 0;
+    height: 85px;
+    line-height: 90px;
+    overflow: hidden;
+}
+/* li */
+.job-titles li{
+    color: aqua;
+    font-size: 60px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 15s steps(4) infinite;
+}
+/* span */
+.job-titles li span {
+    position: relative;
+    margin: 5px 0;
+    line-height: 90px;
+}
+/* span::after */
+.job-titles li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+   /* background-color: rgba(39,43,47,255);*/
+    animation: typing 5s steps(18) infinite;
+}
+/* animation slide */
+@keyframes slide {
+    100%{
+        top: -360px
+    }
+}
+/* For typing */
+@keyframes typing {
+    0%, 60% {
+        left: 0%;
+    }
+    100%{
+        left: min(120%);
+    }
+}
 /*END OF LANDING PAGE*/
 
 /*START OF ABOUT SECTION*/
+
 #about{
-    height: 85vh;
-    background-color: #121212;
-    padding-top: 110px;
+    position: relative;
+    background-image: url(./images/pexels-rafael-guajardo-604684.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    height: fit;
+    padding-top
+    : 110px;
+    padding: 
     
 }
-.container{
+.container-about{
+    border-radius: 5%;
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 100%, rgba(0,212,255,1) 100%);
 }
 .about-title {
     text-align: center;
@@ -49,10 +130,29 @@ text-shadow: 3px 3px 3px #000;
 /*END OF ABOUT SECTION*/
 
 /*START OF SKILLS SECTION*/
-
+#skills{
+ position: relative;
+    background-image: url(./images/pexels-rafael-guajardo-604684.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    height: fit-content;
+    padding-top: ;
+}
 /*END OF SKILLS SECTION*/
 
 /*START OF PROJECTS SECTION*/
+#projects{
+    position: relative;
+    background-image: url(./images/pexels-rafael-guajardo-604684.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    height:fit-content;
+    padding-top: 110px;
+}
 .projects-container {
     padding: 5%;
 }
@@ -79,6 +179,17 @@ text-shadow: 3px 3px 3px #000;
 /*END OF PROJECTS SECTION*/
 
 /*START OF RESUME SECTION*/
+#resume {
+    position: relative;
+    background-image: url(./images/pexels-rafael-guajardo-604684.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    height: fit-content;
+    padding-top: 110px;
+    padding: 30px;
+}
 .resume .resume-item h5 {
     font-size: 16px;
     background: #effbf9;
@@ -87,6 +198,11 @@ text-shadow: 3px 3px 3px #000;
     font-weight: 600;
     margin-bottom: 10px;
     color: #34b7a7;
+}
+.container-resume {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 100%, rgba(0,212,255,1) 100%);
+    
 }
 /*END OF RESUME SECTION*/
 
@@ -102,4 +218,28 @@ text-shadow: 3px 3px 3px #000;
 /*End of Testimonials*/
 
 /*START OF CONTACT SECTION*/
+#contact{
+    position: relative;
+    background-image: url(./images/pexels-rafael-guajardo-604684.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    height: fit-content;
+    padding-top: 110px;
+}
 /*END OF CONTACT SECTION*/
+/*START OF FOOTER*/
+#footer {
+    height: fit-content;
+    position: relative;
+    background-image: url(./images/pexels-rafael-guajardo-604684.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+ul{
+list-style-type:none ;
+}
+/*END OF FOOTER*/

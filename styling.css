@@ -145,18 +145,18 @@ ul{
     position: relative;
 }
 
+
 /*END OF ABOUT SECTION*/
 
 /*START OF SKILLS SECTION*/
 #skills{
- position: relative;
+    position: relative;
     background-image: url(./images/pexels-rafael-guajardo-604684-min.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
     object-fit: cover;
     height: fit-content;
-    padding-top: ;
 }
 /*END OF SKILLS SECTION*/
 

@@ -22,7 +22,7 @@ a:hover{
 
 /*START OF LANDING PAGE*/
 #landing {
-    background-image: url(./images/pexels-andre-moura-10211352.jpg);
+    background-image: url(./images/pexels-andre-moura-10211352-min.jpg);
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -73,6 +73,24 @@ text-shadow: 3px 3px 3px #000;
    /* background-color: rgba(39,43,47,255);*/
     animation: typing 5s steps(18) infinite;
 }
+#socials{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 18%;
+    left: 0;
+    z-index: 200;
+}
+#smlink{
+    width: 46px;
+    height: 30px;
+    font-size: 1.7em;
+    text-decoration: none;
+    
+}
+ul{
+    list-style-type: none;
+}
 /* animation slide */
 @keyframes slide {
     100%{
@@ -94,7 +112,7 @@ text-shadow: 3px 3px 3px #000;
 
 #about{
     position: relative;
-    background-image: url(./images/pexels-rafael-guajardo-604684.jpg);
+    background-image: url(./images/pexels-rafael-guajardo-604684-min.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -132,7 +150,7 @@ text-shadow: 3px 3px 3px #000;
 /*START OF SKILLS SECTION*/
 #skills{
  position: relative;
-    background-image: url(./images/pexels-rafael-guajardo-604684.jpg);
+    background-image: url(./images/pexels-rafael-guajardo-604684-min.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -145,7 +163,7 @@ text-shadow: 3px 3px 3px #000;
 /*START OF PROJECTS SECTION*/
 #projects{
     position: relative;
-    background-image: url(./images/pexels-rafael-guajardo-604684.jpg);
+    background-image: url(./images/pexels-rafael-guajardo-604684-min.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -176,12 +194,16 @@ text-shadow: 3px 3px 3px #000;
   object-fit: cover;
   max-height: 400px;
 }
+#img-project {
+    width: 350px;
+    height: 350px;
+}
 /*END OF PROJECTS SECTION*/
 
 /*START OF RESUME SECTION*/
 #resume {
     position: relative;
-    background-image: url(./images/pexels-rafael-guajardo-604684.jpg);
+    background-image: url(./images/pexels-rafael-guajardo-604684-min.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -199,7 +221,7 @@ text-shadow: 3px 3px 3px #000;
     margin-bottom: 10px;
     color: #34b7a7;
 }
-.container-resume {
+.resume-items {
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 100%, rgba(0,212,255,1) 100%);
     
@@ -209,7 +231,7 @@ text-shadow: 3px 3px 3px #000;
 /*Testimonials */
 #testimonials{
     position: relative;
-    background-image: url(./images/pexels-andre-moura-10100997.jpg);
+    background-image: url(./images/pexels-rafael-guajardo-604684-min.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -220,7 +242,7 @@ text-shadow: 3px 3px 3px #000;
 /*START OF CONTACT SECTION*/
 #contact{
     position: relative;
-    background-image: url(./images/pexels-rafael-guajardo-604684.jpg);
+    background-image: url(./images/pexels-rafael-guajardo-604684-min.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -233,7 +255,7 @@ text-shadow: 3px 3px 3px #000;
 #footer {
     height: fit-content;
     position: relative;
-    background-image: url(./images/pexels-rafael-guajardo-604684.jpg);
+    background-image: url(./images/pexels-rafael-guajardo-604684-min.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;

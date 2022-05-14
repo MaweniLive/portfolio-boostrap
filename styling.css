@@ -151,21 +151,6 @@ ul {
   padding-bottom: 20px;
   position: relative;
 }
-section#about .portfolio-image img {
-  transform-origin: left;
-  /* transform: skew(110deg, 15deg) rotate(-8deg); */
-  perspective-origin: left;
-  transform: rotateY(45deg) perspective(4000px);
-
-  /* perspective: 4000px; */
-}
-/*#port-img {
-    -webkit-transform: rotateX(15deg) rotateY(48deg) rotateZ(-8deg) translateX(-1px) translateY(-16px) translateZ(-7px) skewX(-8deg);
-    -moz-transform: rotateX(15deg) rotateY(48deg) rotateZ(-8deg) translateX(-1px) translateY(-16px) translateZ(-7px) skewX(-8deg);
-    -ms-transform: rotateX(15deg) rotateY(48deg) rotateZ(-8deg) translateX(-1px) translateY(-16px) translateZ(-7px) skewX(-8deg);
-    -o-transform: rotateX(15deg) rotateY(48deg) rotateZ(-8deg) translateX(-1px) translateY(-16px) translateZ(-7px) skewX(-8deg);
-    transform:  rotateX(15deg) rotateY(48deg) rotateZ(-8deg) translateX(-1px) translateY(-16px) translateZ(-7px) skewX(-8deg);
-}*/
 /*END OF ABOUT SECTION*/
 
 /*START OF SKILLS SECTION*/
@@ -343,13 +328,13 @@ section#about .portfolio-image img {
 }
 .resume-items {
   background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(0, 0, 0, 1) 100%,
-    rgba(0, 212, 255, 1) 100%
+  background: linear-gradient(90deg,
+  rgba(2, 0, 36, 1) 0%,
+  rgba(0, 0, 0, 1) 100%,
+  rgba(0, 212, 255, 1) 100%
   );
 }
+
 /*END OF RESUME SECTION*/
 
 /*Testimonials */
